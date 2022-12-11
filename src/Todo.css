@@ -1,0 +1,17 @@
+.done {
+  background-color: #fad7b3;
+}
+.delButton {
+  margin: 0 0 0 3%;
+  opacity: 0;
+  background-color: rgb(253, 146, 146);
+  color: rgb(0, 0, 0);
+  height: 100%;
+  width: 15%;
+  font-size: large;
+  float: right;
+}
+
+.todos > div:hover > button {
+  opacity: 1;
+}
